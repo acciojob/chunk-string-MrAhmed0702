@@ -12,8 +12,7 @@ function stringChop(str, size) {
 // Do not change the code below
 const str = prompt("Enter String.");
 const size = parseInt(prompt("Enter Chunk Size."), 10);
-
 const result = stringChop(str, size);
+alert(result.length === 0 ? '' : JSON.stringify(result));
 
-alert(JSON.stringify(result)); // alert array as string
 
